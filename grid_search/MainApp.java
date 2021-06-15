@@ -58,7 +58,6 @@ public class MainApp {
         int sizeSearchValue = searchValue.size();
         int length = searchArea.get(0).length() - searchValue.get(0).length();
 
-        OUTER:
         for (int i = 0; i < sizeSearchArea - sizeSearchValue + 1; i++) {
             int L = searchValue.get(0).length();
             int score = sizeSearchValue;
