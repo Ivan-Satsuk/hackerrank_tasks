@@ -32,7 +32,11 @@ public class Main {
                     }
                 }
         );
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> e2f7910f3a61422e4d1d45ff6be70524696fc3b2
         List<String> names = new LinkedList<>();
         for (Map.Entry<String, List<String>> e : map.entrySet()) {
 
