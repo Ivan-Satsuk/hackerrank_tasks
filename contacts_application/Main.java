@@ -32,9 +32,8 @@ public class Main {
                     }
                 }
         );
-        System.out.println(map);
+
         List<String> names = new LinkedList<>();
-        int index = 0;
         for (Map.Entry<String, List<String>> e : map.entrySet()) {
 
             if (e.getKey().equals("add")) {
